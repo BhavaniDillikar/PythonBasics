@@ -1,0 +1,9 @@
+#Find the Runner-Up Score!
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    a1=set(arr)
+    a2=list(a1)
+    a2.sort()
+    print(a2[-2])
